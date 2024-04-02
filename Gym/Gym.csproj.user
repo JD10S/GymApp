@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\Admin\Desktop\Gym-master\Gym-master\Gym\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="Site\ConteoRegresivo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Site\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Site\RegisterUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Site\ViewUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

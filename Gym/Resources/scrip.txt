@@ -1,0 +1,40 @@
+CREATE DATABASE DbGym;
+GO
+
+USE DbGym;
+GO
+
+CREATE TABLE Credencial (
+    NombreUsuario NVARCHAR(50) PRIMARY KEY,
+    Contraseña NVARCHAR(50),
+    Rol NVARCHAR(50) DEFAULT 'Usuario'
+);
+GO
+
+CREATE TABLE Usuario (
+    Id INT PRIMARY KEY IDENTITY,
+    Identificacion NVARCHAR(20),
+    Nombre NVARCHAR(50),
+    Apellido NVARCHAR(50),
+    Direccion NVARCHAR(100),
+    Telefono NVARCHAR(20),
+    FechaNacimiento DATE,
+    FechaInicio DATE DEFAULT GETDATE(),
+    UltimoPago DATE DEFAULT GETDATE(),
+    Eps NVARCHAR(50),
+    NombreUsuario NVARCHAR(50),
+    Credencial NVARCHAR(50),
+    FOREIGN KEY (NombreUsuario) REFERENCES Credenciales(NombreUsuario)
+);
+GO
+
+
+USE DbGym;
+GO
+
+INSERT INTO Credencial (NombreUsuario, Contraseña, Rol)
+VALUES ('admin', '1Admin', 'admin');
+GO
+
+
+delete Credencial

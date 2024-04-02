@@ -1,0 +1,13 @@
+C:\Users\Admin\Documents\Gym\Gym.exe
+C:\Users\Admin\Documents\Gym\Gym.dll
+C:\Users\Admin\Documents\Gym\Gym.deps.json
+C:\Users\Admin\Documents\Gym\Gym.runtimeconfig.json
+C:\Users\Admin\Documents\Gym\Gym.dll.config
+C:\Users\Admin\Documents\Gym\Gym.pdb
+C:\Users\Admin\Documents\Gym\FontAwesome.Sharp.dll
+C:\Users\Admin\Documents\Gym\System.Data.SqlClient.dll
+C:\Users\Admin\Documents\Gym\runtimes\win-arm64\native\sni.dll
+C:\Users\Admin\Documents\Gym\runtimes\win-x64\native\sni.dll
+C:\Users\Admin\Documents\Gym\runtimes\win-x86\native\sni.dll
+C:\Users\Admin\Documents\Gym\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\Documents\Gym\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
